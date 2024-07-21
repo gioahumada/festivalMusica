@@ -1,0 +1,13 @@
+@use 'base/variables' as *;
+
+.footer {
+    background-color: $pink;
+    padding: 2rem 0;
+
+    p {
+        color: $white;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+}

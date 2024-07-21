@@ -27,13 +27,15 @@
 @mixin contenedor {
     width: 95%;
     max-width: 120rem;
-    margin: 0 auto;
+    margin: 0rem auto;
+
 }
 
 @mixin grid($columnas, $gap: 2rem) {
     display: grid;
     grid-template-columns: repeat($columnas,1fr);
     gap: $gap;
+
 }
 
 @mixin resetear-lista {
